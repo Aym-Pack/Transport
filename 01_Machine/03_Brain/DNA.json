@@ -59,8 +59,8 @@
       "P01-S01-T04-Requirement-Analysis",
       "P01-S01-T05-Technical-Constraints"
     ],
-    "auto_progression": false,
-    "require_completion_confirmation": true
+    "auto_progression": true,
+    "require_completion_confirmation": false
   },
   
   "step_definitions": {
@@ -120,7 +120,7 @@
     "complete_step": {
       "description": "Mark current step as complete and move to next",
       "updates": ["workflow_state.previous_step", "workflow_state.current_step", "workflow_state.next_step", "workflow_state.progress"],
-      "auto_progression": false
+      "auto_progression": true
     },
     "get_current_status": {
       "description": "Get current workflow position and progress",

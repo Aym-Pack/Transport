@@ -622,6 +622,17 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ---
 
+## @task-sync-agent
+
+**🔄 Task Sync Agent**
+
+### Collaborates with:
+- @task-planning-agent
+- @uber-orchestrator-agent
+- @task-deep-manager-agent
+
+---
+
 ## @task-deep-manager-agent
 
 **🧠 Task Deep Manager Agent (Full Automation)**
@@ -633,9 +644,18 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ---
 
-## @workflow-architect-agent
+## @ethical-review-agent
 
-**🗺️ Workflow Architect Agent**
+**⚖️ Ethical Review Agent**
+
+### Collaborates with:
+- @coding-agent
+
+---
+
+## @debugger-agent
+
+**🐞 Debugger Agent**
 
 ### Collaborates with:
 - @coding-agent
@@ -651,35 +671,6 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ---
 
-## @scribe-agent
-
-**✍️ Scribe Agent**
-
-### Collaborates with:
-- @coding-agent
-
----
-
-## @task-sync-agent
-
-**🔄 Task Sync Agent**
-
-### Collaborates with:
-- @task-planning-agent
-- @uber-orchestrator-agent
-- @task-deep-manager-agent
-
----
-
-## @ethical-review-agent
-
-**⚖️ Ethical Review Agent**
-
-### Collaborates with:
-- @coding-agent
-
----
-
 ## @brainjs-ml-agent
 
 **🧠 Brain.js ML Agent**
@@ -689,9 +680,18 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ---
 
-## @debugger-agent
+## @scribe-agent
 
-**🐞 Debugger Agent**
+**✍️ Scribe Agent**
+
+### Collaborates with:
+- @coding-agent
+
+---
+
+## @workflow-architect-agent
+
+**🗺️ Workflow Architect Agent**
 
 ### Collaborates with:
 - @coding-agent
